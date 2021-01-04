@@ -1,0 +1,33 @@
+/*----------------------------------------
+| preset
+----------------------------------------*/
+ul {
+  list-style: none;
+}
+
+/*----------------------------------------
+| aline
+----------------------------------------*/
+.aline-center{
+  text-align: center;
+}    
+
+/*----------------------------------------
+| active
+----------------------------------------*/
+.done{
+   text-decoration:line-through;
+   color:gray;
+}
+/*----------------------------------------
+| function-UI
+----------------------------------------*/
+button {
+   border: none;
+   border-radius: 20px;
+   line-height: 24px;
+   padding: 0 8px;
+   background: #0099e4;
+   color: #fff;
+   cursor: pointer;
+}

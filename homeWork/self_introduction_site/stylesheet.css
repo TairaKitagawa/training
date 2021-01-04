@@ -1,0 +1,114 @@
+/*----------------------------------------
+| preset
+----------------------------------------*/
+ul {
+    list-style: none;
+  }
+/*----------------------------------------
+| layout-box  in w:1440px h:1024px page
+----------------------------------------*/
+.wrapper-box{
+  width: 1440px;
+  height:1024px;
+  border: 1px solid red;
+}
+.top-box{      
+  width: 1440px;
+  height:100px;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+.bottom-box{
+  width: 1440px;
+  height:924px;
+  /* border: 1px solid red; */
+}
+.left-box{
+  width:700px;
+  height:864px;
+  /* border:1px solid red; */
+}
+.right-box{
+  width:700px;
+  height:864px;
+  /* border: 1px solid red; */
+}
+.right-box-top{
+  width:700px;
+  height:380px;
+  /* border: 1px solid red; */
+}
+.right-box-center{
+  width:700px;
+  height:250px;
+  /* border: 1px solid red; */
+}
+.right-box-bottom{
+  width:700px;
+  height:230px;
+  /* border: 1px solid red; */
+}
+/*----------------------------------------
+| aline
+----------------------------------------*/
+.aline-center{
+  text-align: center;
+}
+.aline-center-vert{
+  padding-top:50%;
+}
+.f-left{
+  float:left;
+}
+.f-right{
+  float:right;
+  }
+.flex-container{
+  display:flex;
+}
+/*----------------------------------------
+| appearance(font,line)
+----------------------------------------*/
+.large-font{
+  font-size:50px;
+  font-family:Georgia;/*Figmaにあったフォントファミリー"Geo"が無いので、とりあえず代替*/
+ }
+.semi-large-font{
+  font-size:34px;
+  font-family:Georgia;/*Figmaにあったフォントファミリー"Geo"が無いので、とりあえず代替*/
+}
+.mid-font{
+  font-size:28px;
+  font-family:Georgia;/*Figmaにあったフォントファミリー"Geo"が無いので、とりあえず代替*/
+}
+.small-font{
+  font-size:17px;
+  font-family:Georgia;/*Figmaにあったフォントファミリー"Geo"が無いので、とりあえず代替*/
+}
+.underline{
+  border-bottom:5px solid #000000;
+}
+.line{
+  border:2px solid #000000;
+}
+/*----------------------------------------
+| spacing
+----------------------------------------*/
+.padding{
+  padding:0px 20px;
+}
+.margin0{
+  margin-top:0px;
+}
+/*----------------------------------------
+| function
+----------------------------------------*/
+.btn-wrapper{
+  margin:20px 0px;
+  background-color: #000000;
+}
+.btn{
+  padding:8px 24px; 
+  color:white;
+  display: inline-block;
+}
